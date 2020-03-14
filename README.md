@@ -20,3 +20,7 @@ Afterwards, go to your gmail account and turn on the [Less secure app access](ht
 ## Migration
 
 Run `php artisan migrate --path=/vendor/kennyalmendral/contactform/src/database/migrations/2019_07_13_141531_create_contacts_table.php` to migrate the `contacts` table.
+
+## Contact page
+
+To access the contact page, add `/contact` to the URL, i.e, `https://sample.com/contact`
