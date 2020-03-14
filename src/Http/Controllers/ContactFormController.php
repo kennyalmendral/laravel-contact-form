@@ -24,7 +24,7 @@ class ContactFormController extends Controller
         ContactForm::create($request->all());
 
 		$receiverName = 'Jane Doe'; // Change to your name
-		$receiverEmail = 'kennyalmendral.sandbox2@gmail.com'; // Change to your email
+		$receiverEmail = 'janedoe@gmail.com'; // Change to your email
 
 		$senderName = trim($request->name);
 		$senderEmail = trim($request->email);
