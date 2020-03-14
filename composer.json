@@ -1,0 +1,24 @@
+{
+    "name": "kennyalmendral/laravel-contact-form",
+    "description": "A contact form package for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennyalmendral",
+            "email": "kennyalmendral@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "KennyAlmendral\\ContactForm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KennyAlmendral\\ContactForm\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
